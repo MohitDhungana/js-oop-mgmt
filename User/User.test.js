@@ -8,15 +8,15 @@ describe('User test suite', () => {
     expect(User.calculatePrice).toBeDefined();
   });
 
-  test('getBasicService should be defined in class ', () => {
+  test('getBasicService should be defined in User class ', () => {
     expect(basicUser.getBasicService()).toBeDefined();
   });
 
-  test('getServiceWithJumba should be defined in class ', () => {
+  test('getServiceWithJumba should be defined in User class ', () => {
     expect(basicUser.getServiceWithJumba()).toBeDefined();
   });
 
-  test('getServiceWithBodyBuilding should be defined in class ', () => {
+  test('getServiceWithBodyBuilding should be defined in User class ', () => {
     expect(basicUser.getServiceWithBodyBuilding()).toBeDefined();
   });
 
